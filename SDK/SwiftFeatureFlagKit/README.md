@@ -1,30 +1,38 @@
 # SwiftFeatureFlagKit
 
-SwiftFeatureFlagKit is a small, concurrency-safe feature flag library for Swift.
-It is designed for teams that want predictable rollout behavior without a heavy dependency stack.
+`SwiftFeatureFlagKit` 是一个轻量、并发安全的 Swift 特性开关库，
+用于在不发版的情况下按规则控制功能开启与关闭。
 
-## What it does
+## 解决的问题
 
-- Evaluates flags from local definitions with deterministic rule priority.
-- Supports targeting by user, app version, attributes, and percentage rollout.
-- Persists fetched definitions through a pluggable store.
-- Keeps a small and explicit public API.
+- 支持灰度发布，降低全量上线风险。
+- 支持快速回滚，避免等待应用商店审核。
+- 规则优先级明确，行为可预测、可测试。
+- 通过协议解耦远程配置与本地存储，便于扩展。
 
-## Requirements
+## 能力概览
+
+- 按用户定向：`userIDIn(Set<String>)`
+- 按版本定向：`appVersionAtLeast(String)`
+- 按百分比灰度：`percentageRollout(Int)`
+- 按自定义属性定向：`attributeEquals(key:value:)`
+- 全量规则：`always`
+
+## 环境要求
 
 - Swift 6.2+
 - iOS 15+
 - macOS 13+
 
-## Installation
+## 安装
 
-Add the package in `Package.swift`:
+在 `Package.swift` 中添加：
 
 ```swift
 .package(path: "SDK/SwiftFeatureFlagKit")
 ```
 
-## Quick start
+## 快速开始
 
 ```swift
 import SwiftFeatureFlagKit
@@ -43,39 +51,25 @@ await client.setDefinitions([
 ])
 
 let context = FeatureFlagContext(userID: "vip_1", appVersion: "2.4.0")
-let isEnabled = await client.isEnabled("new_home", context: context)
+let enabled = await client.isEnabled("new_home", context: context)
 ```
 
-## External Example Project
+## 核心 API
 
+- `FeatureFlagClient`：开关读取、刷新、写入入口。
+- `FeatureFlagDefinition`：开关定义（key + 默认值 + 规则）。
+- `FeatureFlagRule`：规则定义（条件 + 值 + 优先级）。
+- `FeatureFlagProvider`：远程配置协议。
+- `FeatureFlagStore`：本地存储协议。
 
-
-## Public API
-
-- `FeatureFlagClient`: main actor-based entry point.
-- `FeatureFlagDefinition`: flag key with default and rules.
-- `FeatureFlagRule`: condition + output value + priority.
-- `FeatureFlagProvider`: protocol for remote fetch.
-- `FeatureFlagStore`: protocol for persistence.
-
-## Rule conditions
-
-- `always`
-- `userIDIn(Set<String>)`
-- `appVersionAtLeast(String)`
-- `percentageRollout(Int)`
-- `attributeEquals(key:value:)`
-
-## Development
-
-Run tests:
+## 开发
 
 ```bash
 swift test
 ```
 
-CI runs the same command on pull requests and pushes to `main`.
+CI 也使用相同命令执行测试。
 
-## License
+## 许可证
 
 MIT
