@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/master.swiftdeps"
+  },
+  "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Client/FeatureFlagClient.swift": {
+    "dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagClient.d",
+    "object": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagClient.swift.o",
+    "swiftmodule": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagClient.swiftdeps",
+    "diagnostics": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagClient.dia"
+  },
+  "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Engine/FeatureFlagEvaluator.swift": {
+    "dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagEvaluator.d",
+    "object": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagEvaluator.swift.o",
+    "swiftmodule": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagEvaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagEvaluator.swiftdeps",
+    "diagnostics": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagEvaluator.dia"
+  },
+  "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Models/FeatureFlagModels.swift": {
+    "dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagModels.d",
+    "object": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagModels.swift.o",
+    "swiftmodule": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagModels.swiftdeps",
+    "diagnostics": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagModels.dia"
+  },
+  "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagProvider.swift": {
+    "dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagProvider.d",
+    "object": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagProvider.swift.o",
+    "swiftmodule": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagProvider.swiftdeps",
+    "diagnostics": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagProvider.dia"
+  },
+  "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagStore.swift": {
+    "dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagStore.d",
+    "object": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagStore.swift.o",
+    "swiftmodule": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagStore.swiftdeps",
+    "diagnostics": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagStore.dia"
+  },
+  "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Store/InMemoryFeatureFlagStore.swift": {
+    "dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/InMemoryFeatureFlagStore.d",
+    "object": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/InMemoryFeatureFlagStore.swift.o",
+    "swiftmodule": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/InMemoryFeatureFlagStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/InMemoryFeatureFlagStore.swiftdeps",
+    "diagnostics": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/InMemoryFeatureFlagStore.dia"
+  }
+}

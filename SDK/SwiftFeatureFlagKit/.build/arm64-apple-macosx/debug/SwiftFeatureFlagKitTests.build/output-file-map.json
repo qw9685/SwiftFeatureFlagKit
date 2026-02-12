@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/master.swiftdeps"
+  },
+  "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/FeatureFlagClientTests.swift": {
+    "dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/FeatureFlagClientTests.d",
+    "object": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/FeatureFlagClientTests.swift.o",
+    "swiftmodule": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/FeatureFlagClientTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/FeatureFlagClientTests.swiftdeps",
+    "diagnostics": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/FeatureFlagClientTests.dia"
+  },
+  "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/Support/MockFeatureFlagProvider.swift": {
+    "dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/MockFeatureFlagProvider.d",
+    "object": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/MockFeatureFlagProvider.swift.o",
+    "swiftmodule": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/MockFeatureFlagProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/MockFeatureFlagProvider.swiftdeps",
+    "diagnostics": "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/MockFeatureFlagProvider.dia"
+  }
+}

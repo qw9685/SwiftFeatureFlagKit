@@ -1,0 +1,6 @@
+/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Client/FeatureFlagClient.swift
+/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Engine/FeatureFlagEvaluator.swift
+/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Models/FeatureFlagModels.swift
+/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagProvider.swift
+/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagStore.swift
+/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Store/InMemoryFeatureFlagStore.swift

@@ -1,0 +1,752 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.xctest/Contents/MacOS/SwiftFeatureFlagKitPackageTests",
+      "packagePath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit",
+      "productName" : "SwiftFeatureFlagKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SwiftFeatureFlagKit-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/sources",
+      "importPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Client/FeatureFlagClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Engine/FeatureFlagEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Models/FeatureFlagModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Store/InMemoryFeatureFlagStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftFeatureFlagKit",
+      "moduleOutputPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules/SwiftFeatureFlagKit.swiftmodule",
+      "objects" : [
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagClient.swift.o",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagEvaluator.swift.o",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagModels.swift.o",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagProvider.swift.o",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagStore.swift.o",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/InMemoryFeatureFlagStore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/include/SwiftFeatureFlagKit-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftfeatureflagkit"
+      ],
+      "outputFileMapPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/InMemoryFeatureFlagStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules/SwiftFeatureFlagKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Client/FeatureFlagClient.swift",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Engine/FeatureFlagEvaluator.swift",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Models/FeatureFlagModels.swift",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagProvider.swift",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagStore.swift",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Store/InMemoryFeatureFlagStore.swift"
+      ],
+      "tempsPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftFeatureFlagKitPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/sources",
+      "importPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules/SwiftFeatureFlagKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftFeatureFlagKitPackageTests",
+      "moduleOutputPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules/SwiftFeatureFlagKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/include/SwiftFeatureFlagKitPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftfeatureflagkit"
+      ],
+      "outputFileMapPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules/SwiftFeatureFlagKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftFeatureFlagKitTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/sources",
+      "importPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/FeatureFlagClientTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/Support/MockFeatureFlagProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules/SwiftFeatureFlagKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftFeatureFlagKitTests",
+      "moduleOutputPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules/SwiftFeatureFlagKitTests.swiftmodule",
+      "objects" : [
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/FeatureFlagClientTests.swift.o",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/MockFeatureFlagProvider.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftfeatureflagkit"
+      ],
+      "outputFileMapPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/FeatureFlagClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/MockFeatureFlagProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules/SwiftFeatureFlagKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/FeatureFlagClientTests.swift",
+        "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/Support/MockFeatureFlagProvider.swift"
+      ],
+      "tempsPath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SwiftFeatureFlagKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftFeatureFlagKit",
+      "-package-name",
+      "swiftfeatureflagkit",
+      "-c",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Client/FeatureFlagClient.swift",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Engine/FeatureFlagEvaluator.swift",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Models/FeatureFlagModels.swift",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagProvider.swift",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagStore.swift",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Store/InMemoryFeatureFlagStore.swift",
+      "-I",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/include/SwiftFeatureFlagKit-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftfeatureflagkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftFeatureFlagKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftFeatureFlagKitPackageTests",
+      "-package-name",
+      "swiftfeatureflagkit",
+      "-c",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/include/SwiftFeatureFlagKitPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftfeatureflagkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftFeatureFlagKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftFeatureFlagKitTests",
+      "-package-name",
+      "swiftfeatureflagkit",
+      "-c",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/FeatureFlagClientTests.swift",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/Support/MockFeatureFlagProvider.swift",
+      "-I",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftfeatureflagkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SwiftFeatureFlagKit" : [
+
+    ],
+    "SwiftFeatureFlagKitPackageTests" : [
+      "SwiftFeatureFlagKitTests",
+      "SwiftFeatureFlagKit"
+    ],
+    "SwiftFeatureFlagKitTests" : [
+      "SwiftFeatureFlagKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Client/FeatureFlagClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Engine/FeatureFlagEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Models/FeatureFlagModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Protocols/FeatureFlagStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Sources/SwiftFeatureFlagKit/Store/InMemoryFeatureFlagStore.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/sources"
+    },
+    "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/sources"
+    },
+    "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/FeatureFlagStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKit.build/InMemoryFeatureFlagStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/FeatureFlagClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/MockFeatureFlagProvider.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/FeatureFlagClientTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/Tests/SwiftFeatureFlagKitTests/Support/MockFeatureFlagProvider.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/SwiftFeatureFlagKitTests.build/sources"
+    },
+    "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/cc/Desktop/github/SwiftFeatureFlagKit/SDK/SwiftFeatureFlagKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
