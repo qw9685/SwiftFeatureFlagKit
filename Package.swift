@@ -11,11 +11,19 @@ let package = Package(
         .library(
             name: "SwiftFeatureFlagKit",
             targets: ["SwiftFeatureFlagKit"]
+        ),
+        .executable(
+            name: "FeatureFlagDemo",
+            targets: ["FeatureFlagDemo"]
         )
     ],
     targets: [
         .target(
             name: "SwiftFeatureFlagKit"
+        ),
+        .executableTarget(
+            name: "FeatureFlagDemo",
+            dependencies: ["SwiftFeatureFlagKit"]
         ),
         .testTarget(
             name: "SwiftFeatureFlagKitTests",

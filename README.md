@@ -46,6 +46,35 @@ let context = FeatureFlagContext(userID: "vip_1", appVersion: "2.4.0")
 let isEnabled = await client.isEnabled("new_home", context: context)
 ```
 
+## Demo
+
+This repository includes two demos:
+
+- `SwiftFeatureFlagKitDemo.xcodeproj`: iOS SwiftUI app demo (recommended for Xcode).
+- `FeatureFlagDemo`: command-line demo target for quick terminal checks.
+
+### Run in Xcode (recommended)
+
+1. Open `/Users/cc/Desktop/github/SwiftFeatureFlagKit/SwiftFeatureFlagKitDemo.xcodeproj`.
+2. Select scheme `FeatureFlagDemoApp`.
+3. Select an iPhone Simulator and press Run.
+
+### Run in Terminal
+
+```bash
+swift run FeatureFlagDemo
+```
+
+Expected output (example):
+
+```text
+[Local] new_home for vip_1 -> true
+[Remote] chat_streaming for guest_42@2.5.1 -> true
+[Remote] new_paywall for guest_42@2.5.1 -> false
+```
+
+Or open `Package.swift` in Xcode and run scheme `FeatureFlagDemo`.
+
 ## Public API
 
 - `FeatureFlagClient`: Main actor-based entry point.
